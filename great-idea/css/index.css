@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/*navbar specific properties*/
+.navbar {
+	width: 100%;
+}
+nav {
+	display: inline-block;
+	width: 85%;
+	font-size: 1.25em;
+	vertical-align: middle;
+}
+nav a {
+	margin: 4%;
+	color: gray;
+	text-decoration: none;
+	vertical-align: middle;
+}
+header img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 14%;
+}
+/*Header specific properties*/
+header {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+.tagline {
+	padding-top: 5%;
+}
+.tagline img {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+header h1 {
+	display: inline-block;
+	width: 45%;
+	font-size: 4em;
+	vertical-align: middle;
+}
+button {
+	font-size: 20px;
+	padding: 1% 5%;
+}
+/*Middle specific properties*/
+.features {
+	display: inline-block;
+	width: 49%;
+}
+.about {
+	display: inline-block;
+	width: 49%;
+}
+.middle-img {
+	display: inline-block;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.services {
+	display: inline-block;
+	width: 32%;
+}
+.product {
+	display: inline-block;
+	width: 32%;
+}
+.vision {
+	display: inline-block;
+	width: 32%;
+}
+/*Footer properties*/
+footer{
+
+}
+.copyright {
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
