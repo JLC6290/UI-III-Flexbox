@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border: 1px solid gray;
+
 }
 /* HTML5 display-role reset for older browsers */
 
@@ -84,6 +84,7 @@ nav {
 nav a {
 	color: gray;
 	text-decoration: none;
+	vertical-align: middle;
 }
 /*Header specific properties*/
 .tagline {
@@ -106,6 +107,12 @@ button {
 }
 .services-button {
 	border-radius: 8px;
+	background-color: white;
+}
+.services-header-img {
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 5%;
 }
 /*Middle specific properties*/
 .middle-content {
@@ -121,8 +128,14 @@ button {
 }
 .services-content {
 	display:flex;
+	flex-direction: column;
+}
+.row-one, .row-two, .row-three {
+	display: flex;
+	justify-content: space-between;
 }
 .content-card {
+	width: 47%;
 	border: 1px gray solid;
 	padding: 3%;
 	margin-top: 3%;
@@ -132,16 +145,16 @@ button {
 .content-card p {
 	margin-bottom: 3%;
 }
-.column-one {
-	margin-right: 2%;
-}
 /*Bottom content properties*/
 .bottom-content {
 	display: flex;
 	justify-content: space-between;
 }
 .bottom-content p {
-	margin-bottom: 3%;
+	margin-bottom: 5%;
+}
+.column-one, .services-info-img {
+	width: 50%;
 }
 /*Footer properties*/
 .copyright {
@@ -153,4 +166,17 @@ button {
 hr {
 	margin-top: 3%;
 	margin-bottom: 3%;
+}
+/*font properties*/
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.25em;
+}
+ul {
+	
+}
+li {
+	margin: 2% 0 0 4%;
 }
